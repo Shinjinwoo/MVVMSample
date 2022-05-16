@@ -23,4 +23,8 @@ public class DataBidingViewModel extends ViewModel {
         Log.d(LOG_TAG,data.toString());
     }
 
+    public void delete() {
+        data.setValue(0);
+    }
+
 }
